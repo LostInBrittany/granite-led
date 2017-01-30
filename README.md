@@ -13,19 +13,24 @@
 
 ## Usage example
 
-<!--
+<!---
 ```
 <custom-element-demo>
   <template>
-      <link rel="import" href="./granite-led.html">
-      <next-code-block></next-code-block>
-  </template>    
+    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="granite-led.html">
+      <style is="custom-style">    
+        granite-led {
+          --granite-led-background-color:  #db4437;
+        }
+      </style>
+    <next-code-block></next-code-block>
+  </template>
 </custom-element-demo>
 ```
 -->
 ```html
 <granite-led powered></granite-led>
-<granite-led></granite-led>
 ```
 
 ## Install
