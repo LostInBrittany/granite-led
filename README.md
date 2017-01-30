@@ -1,7 +1,9 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/LostInBrittany/granite-led)
+
 # granite-led
 
 > A webcomponent to display a LED-like ON/OFF status indicator
-> 
+>
 > Polymer 1.7 ready
 
 
@@ -14,13 +16,15 @@
 ```
 <custom-element-demo>
   <template>
-      <link rel=”import” href=”./granite-led.html”>
+      <link rel="import" href="./granite-led.html">
+      <next-code-block></next-code-block>
   </template>    
 </custom-element-demo>
 ```
 -->
-```
+```html
 <granite-led powered></granite-led>
+<granite-led></granite-led>
 ```
 
 ## Install
@@ -31,7 +35,9 @@ Install the component using [Bower](http://bower.io/):
 $ bower install LostInBrittany/granite-led --save
 ```
 
-Or [download as ZIP](https://github.com/LostInBrittany/granite-led/archive/gh-pages.zip).## Usage
+Or [download as ZIP](https://github.com/LostInBrittany/granite-led/archive/gh-pages.zip).
+
+## Usage
 
 1. Import Web Components' polyfill (if needed):
 
