@@ -12,6 +12,7 @@
 [https://lostinbrittany.github.io/granite-led](https://lostinbrittany.github.io/granite-led)
 
 ## Usage example
+
 <!--
 ```
 <custom-element-demo>
